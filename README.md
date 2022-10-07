@@ -15,7 +15,7 @@ Install all dependencies
 Run 
 
 ```bash
-  npm install
+  npm start
 ```
 
 ## Authors
