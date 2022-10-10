@@ -1,4 +1,4 @@
-## MR Movie Reactjs
+## MR Movie (Reactjs Project)
 
 ▶️ MR Movie is created using:
  - React js
