@@ -3,7 +3,7 @@
 ▶️ MR Movie is created using:
  - React js
  - API Integration (Movie API) 
- - Hooks (useState, useEffect)
+ - Hook (useState, useEffect)
 
 ## Installation
 
