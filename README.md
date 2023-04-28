@@ -1,6 +1,6 @@
 ## MR Movie (Reactjs Project)
 
-▶️ <a href="https://yourmrmovies.netlify.app/">MR Movie</a> is created using:
+▶️ <a href="https://mrmovies.netlify.app/">MR Movie</a> is created using:
  - React js
  - API Integration (Movie API) 
  - Hook (useState, useEffect)
