@@ -1,9 +1,15 @@
 import React, { useState, useEffect } from "react";
 
-import MovieCard from "./MovieCard";
+// Other Components
+import MovieCard from "./Components/MovieCard";
+import Hero from "./Components/Hero";
+//Icon Image added 
 import SearchIcon from "./search.svg";
+
+// CSS added
 import "./App.css";
 
+// API added
 const API_URL = "https://www.omdbapi.com?apikey=b6003d8a";
 
 const App = () => {
@@ -17,14 +23,15 @@ const App = () => {
   const searchMovies = async (title) => {
     const response = await fetch(`${API_URL}&s=${title}`);
     const data = await response.json();
-
     setMovies(data.Search);
   };
 
   return (
     <div className="app">
+     <Hero/>
+      <div className="subapp"> 
       <h1>MR Movie</h1>
-
+     
       <div className="search">
         <input
           value={searchTerm}
@@ -49,6 +56,7 @@ const App = () => {
           <h2>No movies found</h2>
         </div>
       )}
+      </div>
     </div>
   );
 };
