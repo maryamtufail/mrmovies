@@ -12,7 +12,7 @@ import { EffectCoverflow } from "swiper";
 
 export default function Hero() {
   return (
-    <>
+    <div className="hero">
       <Swiper
         effect={"coverflow"}
         grabCursor={true}
